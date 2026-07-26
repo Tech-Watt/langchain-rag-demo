@@ -1,5 +1,7 @@
 # langchain-rag-demo
 
+[![Watch the tutorial](./rag-youtube-thumbnail.png)](https://youtu.be/S52GEPIYb40)
+
 A hands-on Jupyter notebook that builds a RAG pipeline over a PDF using **LangChain**, **Chroma**, local **Hugging Face** embeddings, and **Google Gemini** for generation.
 
 **YouTube walkthrough:** [Watch the tutorial](https://youtu.be/S52GEPIYb40)
@@ -66,11 +68,13 @@ Run the cells in order. The final cell asks: *“what are the types of resistors
 
 ```
 langchain-rag-demo/
-├── rag.ipynb          # Full RAG walkthrough
-├── resistor.pdf       # Sample knowledge source
-├── .env.example       # API key template (safe to commit)
-├── pyproject.toml     # Dependencies
-└── uv.lock            # Locked versions
+├── rag.ipynb                  # Full RAG walkthrough
+├── resistor.pdf               # Sample knowledge source
+├── rag-youtube-thumbnail.png  # Tutorial thumbnail
+├── .env.example               # API key template (safe to commit)
+├── LICENSE                    # MIT
+├── pyproject.toml             # Dependencies
+└── uv.lock                    # Locked versions
 ```
 
 ## Customize
@@ -88,4 +92,4 @@ langchain-rag-demo/
 
 ## License
 
-Use and modify freely for learning and demos. Add a formal license file if you publish this as an open-source project.
+This project is licensed under the [MIT License](./LICENSE).

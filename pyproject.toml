@@ -3,6 +3,7 @@ name = "rag"
 version = "0.1.0"
 description = "Retrieval-Augmented Generation demo: LangChain + Chroma + Hugging Face embeddings + Google Gemini over a PDF"
 readme = "README.md"
+license = "MIT"
 requires-python = ">=3.13"
 dependencies = [
     "jupyter>=1.1.1",
